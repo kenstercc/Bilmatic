@@ -1,0 +1,8 @@
+﻿contract_value_1,contract_value_1_type,contract_value_2,contract_value_2_type,contract_value_3,contract_value_3_type,contract_value_4,contract_value_4_type,contract_value_5,contract_value_5_type,contract_billing_item,contract_type,contract_status,contract_update_timestamp,contract_range_type,contract_to_range,contract_rate_type,contract_rate_amount,contract_billing_operator,contract_addon_type,contract_addon_rate_amount,contract_maximum_fee
+company01,com ,office01,off ,0000000000,n/a,0000000000,n/a,0000000000,n/a,wecan,regu,a,2019-12-31 23:40:10 ,item,0000001000,flat$,50,+,flat$,2000,5000
+company01,com ,office01,off ,0000000000,n/a,0000000000,n/a,0000000000,n/a,wecan,regu,a,2019-12-31 23:40:10 ,item,99999999,flat$,40,+,flat$,2000,5000
+company01,com ,office01,off ,0000000000,n/a,0000000000,n/a,0000000000,n/a,jocan,regu,a,2019-12-31 23:40:10 ,item,0000001000,flat$,60,+,flat$,2000,5000
+company01,com ,office01,off ,0000000000,n/a,0000000000,n/a,0000000000,n/a,starc,regu,a,2019-12-31 23:40:10 ,item,0000001000,flat$,70,+,flat$,2000,5000
+company02,com ,office02,off ,0000000000,n/a,0000000000,n/a,0000000000,n/a,gucan,regu,a,2019-12-31 23:40:10 ,Asset,0000001000,bps,300,+,flat$,2000,5000
+company02,com ,office02,off ,0000000000,n/a,0000000000,n/a,0000000000,n/a,trigu,regu,a,2019-12-31 23:40:10 ,Asset,0000001000,bps,400, ,n/a,2000,5000
+company02,com ,office02,off ,0000000000,n/a,0000000000,n/a,0000000000,n/a,eclgu,regu,a,2019-12-31 23:40:10 ,n/a,99999999,bps,500,+,flat$,2000,5000

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/shared/navbar-style.css">
+    <link rel="stylesheet" href="/styles/pages/schedule-page.css">
+    <link rel="stylesheet" href="/styles/shared/general.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ag-grid-community@32.3.0/styles/ag-grid.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ag-grid-community@32.3.0/styles/ag-theme-quartz.css">
+    <link rel="stylesheet" href="/styles/pages/schedule-page.css">
+      
+</head>
+<body>
+    
+    <nav class="navbar">
+        <script src="/scripts/navbar-script.js"></script>
+    </nav>
+     
+    <!-- Below is the selection bar -->
+    
+    <div class="selection-grid">
+            Entity 
+             <input class="entity-input" size="5" minlength="5" maxlength="5">
+            Sub-Entity    
+            <input class="sub-entity-input"  size="5" minlength="5" maxlength="5">    
+            Account    
+            <input class="account-input"  size="12" minlength="5" maxlength="12">    
+            <button onclick="
+                display();        
+            " class="display-button" min-lenght="25">View Contracts</button>
+    </div>     
+        
+       
+    <!-- the contract data grid script is below -->
+
+    <script> var __basePath = ''; </script>
+        <style> html, body { margin: 0; padding: 0; height: 100%; } </style>
+          
+       <script src="https://unpkg.com/ag-grid-enterprise@20.2.0/dist/ag-grid-enterprise.min.js"></script></head>
+        
+       <div id="selectionGrid" style="width: 95%; height: 75%; margin: 50px auto;" class="ag-theme-quartz"></div>
+       <script src="genderCellRenderer.js"></script>
+       <script src="/scripts/contract.js"></script>
+        
+            
+    </script> 
+
+   
+
+</body> 
+
+    
+</html>
