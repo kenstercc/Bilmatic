@@ -61,4 +61,10 @@
         justify-content: center;
       }
 
+.highlight-row {
+        background-color: yellow !important;
+    }
 
+.updated-cell {
+        background-color: yellow;
+    }
