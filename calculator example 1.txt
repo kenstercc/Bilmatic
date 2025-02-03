@@ -1,0 +1,127 @@
+EXAMPLE 1
+
+const app = express();
+const port = 3000;
+
+// Middleware to parse JSON bodies
+app.use(express.json());
+
+// POST endpoint to evaluate formulas
+app.post('/evaluate', (req, res) => {
+    const { formula, variables } = req.body;
+
+    try {
+        // Evaluate the formula with the provided variables
+        const result = math.evaluate(formula, variables);
+        res.json({ result });
+    } catch (error) {
+        res.status(400).json({ error: error.message });
+    }
+});
+
+app.listen(port, () => {
+    console.log(`Server is running on http://localhost:${port}`);
+});
+
+example
+
+curl -X POST http://localhost:3000/evaluate -H "Content-Type: application/json" -d '{"formula": "a * b + c", "variables": {"a": 5, "b": 10, "c": 3}}'
+
+
+EXAMPLE 2
+
+cation:
+
+javascript
+Copy code
+const express = require('express');
+const math = require('mathjs');
+
+const app = express();
+const port = 3000;
+
+// Middleware to parse incoming JSON data
+app.use(express.json());
+
+// Endpoint to calculate a complex dynamic formula
+app.post('/calculate', (req, res) => {
+    const { formula } = req.body;
+
+    if (!formula) {
+        return res.status(400).json({ error: 'No formula provided' });
+    }
+
+    try {
+        // Evaluate the formula using mathjs
+        const result = math.evaluate(formula);
+
+        // Send the result as a response
+        res.json({ result });
+    } catch (error) {
+        res.status(400).json({ error: 'Invalid formula or syntax' });
+    }
+});
+
+app.listen(port, () => {
+    console.log(`Server is running on http://localhost:${port}`);
+});
+Step 3: Using the Calculator API
+In this example, the server has an endpoint /calculate that expects a JSON payload with a formula field. The formula is then evaluated using the mathjs library, and the result is sent back as a JSON response.
+
+Example Request:
+You can use Postman or any HTTP client to make a POST request to the server.
+
+json
+Copy code
+POST http://localhost:3000/calculate
+{
+    "formula": "2 * (3 + 5) / 4"
+}
+Example Response:
+json
+Copy code
+{
+    "result": 4
+}
+
+EXAMPLE 3
+
+// Function to ask for the operation
+function getOperation() {
+  const operation = prompt("Choose an operation: +, -, *, /");
+  return operation;
+}
+// Function to ask for numbers
+function getNumbers() {
+  const num1 = parseFloat(prompt("Enter first number:"));
+  const num2 = parseFloat(prompt("Enter second number:"));
+  return { num1, num2 };
+}
+// Perform the calculation based on the operation
+function calculate(operation, num1, num2) {
+  switch (operation) {
+    case '+':
+      return num1 + num2;
+    case '-':
+      return num1 - num2;
+    case '*':
+      return num1 * num2;
+    case '/':
+      // Check for division by zero
+      if (num2 === 0) {
+        return "Cannot divide by zero";
+      }
+      return num1 / num2;
+    default:
+      return "Invalid operation";
+  }
+}
+// Main function to run the calculator
+function runCalculator() {
+  const operation = getOperation();
+  const { num1, num2 } = getNumbers();
+  const result = calculate(operation, num1, num2);
+  alert(`Result: ${result}`);
+}
+// Run the calculator
+runCalculator();

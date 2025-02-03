@@ -225,24 +225,16 @@ function onCellValueChanged (event) {
 
 window.updatecontract = function() { 
   
-    console.log('here in update function')
-
     const Entity = document.getElementById("Entity").value;
     const SubEntity = document.getElementById("SubEntity").value;
     const Account = document.getElementById("Account").value;
-    
-    console.log (Entity);
-    console.log (SubEntity);
-    console.log (Account);
-     
+   
+      
     //retrieve all rows from ag grid  
     const allRows = gridOptions.api.getRenderedNodes().map(node => node.data);
-    console.log('allALLROWS', allRows);
-
+   
     //Select only updated row based on Isudated flag
     const filteredData = allRows.filter(item => item.isUpdated === true);
-
-    console.log('filteredData', filteredData);
 
     if (Array.isArray(filteredData) && filteredData.length === 0) 
        {alert("Error - No updates found, please edit schedule !!")
@@ -292,10 +284,6 @@ function myCustomValidator(params) {
   const newValue = params.newValue;
   const oldvalue = params.oldValue;
   
-  console.log('new', newValue)
-  console.log('old', oldvalue)
- 
-
   // Perform your validation logic here
   if (newValue < 0) {
     alert("Value cannot be negative!");
@@ -323,10 +311,6 @@ function minCustomValidator(params) {
   const newValue = params.newValue;
   const max = params.data.contract_maximum_fee
 
-  console.log(newValue)
-  console.log(max)
- 
-
   // Perform your validation logic here
   if (newValue < 0) {
     alert("Value cannot be negative!");
@@ -353,10 +337,6 @@ function maxCustomValidator(params) {
   const newValue = params.newValue;
   const min = params.data.contract_minimum_fee
 
-  console.log(newValue)
-  console.log(min)
- 
-
   // Perform your validation logic here
   if (newValue < 0) {
     alert("Value cannot be negative!");
@@ -378,4 +358,3 @@ function maxCustomValidator(params) {
   return true; 
 }  
  
-
