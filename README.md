@@ -16,7 +16,7 @@ Architecturally, the apps will be built using Java Script for the frontend, back
 
 **Features**
 
-Customer Management: Create, update, and delete customer records.
+**Customer Management**: Create, update, and delete customer records.
 Invoice Generation: Generate invoices with custom items, taxes, and discounts.
 Payment Tracking: Track payment status and amounts received.
 Recurring Billing: Manage subscription-based billing with automatic renewal.
