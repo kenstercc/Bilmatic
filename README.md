@@ -1,4 +1,4 @@
-# Enterprise Billing Application# 
+# Enterprise Billing Application
 An open-source enterprise billing system designed for small to medium-sized businesses. This application helps manage customers, generate invoices, track payments, and handle various billing tasks. Built with JavaScript, Node.js, and MySQL.
 
 Table of Contents
