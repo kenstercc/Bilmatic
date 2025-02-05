@@ -34,7 +34,7 @@ Architecturally, the apps will be built using Java Script for the frontend, back
 ##### 2.5 Calculate exception fees
 ##### 2.6 Dynamic formula
 ##### 2.7 Calculate Advisory fees
-######     2.7.1 Calculate flow fees
+    ######     2.7.1 Calculate flow fees
 ######     2.7.2 Calculate wrap fees
 ######     2.7.3 Calculate account inception fee
 ######     2.7.4 Calculate account periodic fee
