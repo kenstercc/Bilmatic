@@ -14,7 +14,8 @@ To provide the required flexibility, a dynamic calculator will be build based on
 
 Architecturally, the apps will be built using Java Script for the frontend, backend will be developed using Node JS and database will be supported by MYSQL.  
 
-*Features*
+#Features#
+
 Customer Management: Create, update, and delete customer records.
 Invoice Generation: Generate invoices with custom items, taxes, and discounts.
 Payment Tracking: Track payment status and amounts received.
