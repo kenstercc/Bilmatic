@@ -1,6 +1,6 @@
 ![Bilmatic-Logo-2](https://github.com/user-attachments/assets/1cde5cd8-1847-46c0-abb4-3358447d492f)  
 
-A generic, rule and formula based billing application will be built to support various billing needs for most businesses and industries.  The billing engine will accommodate charging fees based on transactions and account asset value.  
+Anopen source generic, rule and formula based billing application will be built to support various billing needs for most businesses and industries.  The billing engine will accommodate charging fees based on transactions and account asset value.  
 
 The final product will provide billing for advisory management fees as well as interest calculation for margin and security lending.     
 
