@@ -1,4 +1,4 @@
-****![Bilmatic-Logo-2](https://github.com/user-attachments/assets/1cde5cd8-1847-46c0-abb4-3358447d492f) # Enterprise Billing Application 
+![Bilmatic-Logo-2](https://github.com/user-attachments/assets/1cde5cd8-1847-46c0-abb4-3358447d492f) # Enterprise Billing Application 
 
 An open-source enterprise billing system designed for small to medium-sized businesses. This application helps manage customers, generate invoices, track payments, and handle various billing tasks. Built with JavaScript, Node.js, and MySQL.
 
