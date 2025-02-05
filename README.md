@@ -41,22 +41,17 @@ Architecturally, the apps will be built using Java Script for the frontend, back
             2.4.4 Calculate account periodic fee
             2.4.5 Calculation account termination fee
             2.4.6 Calculation payee/payor/sleeve manager fees
+### 3 Collections & Distribution
+#### 3.1 Maintain payout and distribution schedule
+#### 3.2 Calculate payout detail
+#### 3.3 Record payout info
+#### 3.4 Create payout file
+### 4 Invoicing & Payment Management
+#### 4.1 Create Customer Invoice
+#### 4.2 Create Receivable and payable detail
+#### 4.3 Payment Management
 
-
-
-    
-    
-   
-    
-
-## Invoice Generation: Generate invoices with custom items, taxes, and discounts.
-
-Payment Tracking: Track payment status and amounts received.
-Recurring Billing: Manage subscription-based billing with automatic renewal.
-Report Generation: Generate reports for revenue, outstanding invoices, and more.
-Multi-currency Support: Handle transactions in multiple currencies.
-User Authentication: Secure login with JWT authentication.
-Technologies Used
+## Technologies Used
 Backend: Node.js (Express)
 Database: MySQL
 Authentication: JWT (JSON Web Tokens)
