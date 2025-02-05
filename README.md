@@ -1,4 +1,4 @@
-![Bilmatic-Logo-2](https://github.com/user-attachments/assets/1cde5cd8-1847-46c0-abb4-3358447d492f)  
+<div style="float: left">![Bilmatic-Logo-2](https://github.com/user-attachments/assets/1cde5cd8-1847-46c0-abb4-3358447d492f)  
 
 An open source generic, rule and formula based billing application will be built to support various billing needs for most businesses and industries.  The billing engine will accommodate charging fees based on transactions and account asset value.  
 
@@ -51,11 +51,10 @@ Architecturally, the apps will be built using Java Script for the frontend, back
 #### 4.3 Payment Management
 
 ## Technologies Used
-Backend: Node.js (Express)
-Database: MySQL
-Authentication: JWT (JSON Web Tokens)
-Libraries/Frameworks:
-Express.js
+#### Frontend: Javascript/AG-Grid
+#### Backend: Node.js (Express)
+#### Database: MySQL
+#### Libraries/Frameworks: Express.js
 Sequelize (ORM for MySQL)
 dotenv (Environment Variables)
 Bcrypt.js (Password Hashing)
