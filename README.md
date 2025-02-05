@@ -16,8 +16,9 @@ Architecturally, the apps will be built using Java Script for the frontend, back
 
 # Features
 
-## Customer Management
-   Create, update, and delete customer records.
+## Billing Service
+### Customer Management
+    - Create, update, and delete customer records.
 
 ## Invoice Generation: Generate invoices with custom items, taxes, and discounts.
 
