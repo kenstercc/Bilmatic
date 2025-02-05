@@ -1,18 +1,18 @@
 ![Bilmatic-Logo-2](https://github.com/user-attachments/assets/1cde5cd8-1847-46c0-abb4-3358447d492f)  
 
-An open-source enterprise billing system designed for small to medium-sized businesses. This application helps manage customers, generate invoices, track payments, and handle various billing tasks. Built with JavaScript, Node.js, and MySQL.
+A generic, rule and formula based billing application will be built to support various billing needs for most businesses and industries.  The billing engine will accommodate charging fees based on transactions and account asset value.  
 
-Table of Contents
-Features
-Technologies Used
-Getting Started
-Prerequisites
-Installation
-Configuration
-Usage
-API Documentation
-Contributing
-License
+The final product will provide billing for advisory management fees as well as interest calculation for margin and security lending.     
+
+The application will be built under the following service Model;
+- **[[Billing Service]]** 
+- ****[[Fee Calculation]] 
+- **[[Distribution and Collection]]**
+- **[[Invoicing and Payment Management]]
+
+To provide the required flexibility, a dynamic calculator will be build based on user defined formula and exception pricing will be determined by a set of Boolean logic.   
+
+Architecturally, the apps will be built using Java Script for the frontend, backend will be developed under Go and database will be supported by Mongo DB.  
 Features
 Customer Management: Create, update, and delete customer records.
 Invoice Generation: Generate invoices with custom items, taxes, and discounts.
