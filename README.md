@@ -27,7 +27,22 @@ Architecturally, the apps will be built using Java Script for the frontend, back
 ##### 1.8 Create billing invoice and statements
 ##### 1.9 Billing reconcilations
 ## 2 Fee Calculation
-### 2.1 
+##### 2.1 Contract Definitions (fee schedule)
+##### 2.2 Calculate transaction fees
+##### 2.3 Calculate time-based fees
+##### 2.4 Determine billing exemption
+##### 2.5 Calculate exception fees
+##### 2.6 Dynamic formula
+##### 2.7 Calculate Advisory fees
+###### 2.7.1 Calculate flow fees
+###### 2.7.2 Calculate wrap fees
+###### 2.7.3 Calculate account inception fee
+###### 2.7.4 Calculate account periodic fee
+###### 2.7.5 Calculation account termination fee
+###### 2.7.6 Calculation payee/payor/sleeve manager fees
+
+
+
     
     
    
