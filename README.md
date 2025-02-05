@@ -7,8 +7,8 @@ The final product will provide billing for advisory management fees as well as i
 The application will be built under the following service Model;
 - **Billing Service** 
 - **Fee Calculation** 
-- **[[Distribution and Collection]]**
-- **[[Invoicing and Payment Management]]
+- **Distribution and Collection**
+- **Invoicing and Payment Management**
 
 To provide the required flexibility, a dynamic calculator will be build based on user defined formula and exception pricing will be determined by a set of Boolean logic.   
 
