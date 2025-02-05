@@ -17,15 +17,15 @@ Architecturally, the apps will be built using Java Script for the frontend, back
 # Features
 
 ## 1 Billing Service
-### 1.1 Customer Management
-### 1.2 Billing Definitions
-### 1.3 Establish and maintain billing qualifications
-### 1.4 Billing transaction bundling
-### 1.5 Maintain billing history
-### 1.6 Rebate and reversal
-### 1.7 Initiate manual billing
-### 1.8 Create billing invoice and statements
-### 1.9 Billing reconcilations
+#### 1.1 Customer Management
+#### 1.2 Billing Definitions
+#### 1.3 Establish and maintain billing qualifications
+#### 1.4 Billing transaction bundling
+#### 1.5 Maintain billing history
+#### 1.6 Rebate and reversal
+#### 1.7 Initiate manual billing
+#### 1.8 Create billing invoice and statements
+#### 1.9 Billing reconcilations
 ## 2 Fee Calculation
 ### 2.1 
     
