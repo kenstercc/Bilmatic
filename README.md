@@ -93,7 +93,7 @@ Copy
 DB_HOST=localhost
 DB_USER=root
 DB_PASSWORD=password
-DB_NAME=billing_db
+DB_NAME=Bilmatic
 JWT_SECRET=your_jwt_secret_key
 Update the DB_HOST, DB_USER, DB_PASSWORD, and DB_NAME to match your MySQL database credentials.
 
