@@ -12,8 +12,6 @@ The application will be built under the following service Model;
 
 To provide the required flexibility, a dynamic calculator will be build based on user defined formula and exception pricing will be determined by a set of Boolean logic.   
 
-Architecturally, the apps will be built using Java Script for the frontend, backend will be developed using Node JS and database will be supported by MYSQL.  
-
 ## Features
 
 #### 1 Billing Service
