@@ -74,7 +74,7 @@ Clone this repository to your local machine:
 
 bash
 Copy
-git clone https://github.com/yourusername/enterprise-billing.git
+git clone https://github.com/kenstercc/bilmatic.git
 Navigate to the project directory:
 
 bash
