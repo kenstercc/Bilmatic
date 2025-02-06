@@ -15,9 +15,9 @@ To provide the required flexibility, a dynamic calculator will be build based on
 
 ## Features
 
-#### _Features that are implemented marked with *_ 
+#### _Features that are implemented marked with **_ 
  
-#### _1 Billing Service *_
+#### _1 Billing Service **_
 ##### 1.1 Customer Management
 ##### 1.2 Billing Definitions
             1.2.1 Establish and maintain billing qualifications
@@ -26,17 +26,17 @@ To provide the required flexibility, a dynamic calculator will be build based on
 ##### 1.4 Rebate and reversal
 ##### 1.5 Initiate manual billing
 ##### 1.6 Billing reconcilations
-#### _2 Fee Calculation *_
-##### _2.1 Contract Definitions (fee schedule) *_
+#### _2 Fee Calculation **_
+##### _2.1 Contract Definitions (fee schedule) **_
 ##### 2.2 Asset Class Definitions
-##### _2.3 Calculate transaction fees & time-based fees *_
+##### _2.3 Calculate transaction fees & time-based fees **_
             2.3.1 Determine billing exemption
             2.3.2 Calculate exception fees
             2.3.3 Dynamic formula
-            _2.3.4 Determine min/max fees *_
-            _2.3.5 Calculate regular and asset based fees *_
-            _2.3.6 Realtime what-if calculation *_
-            _2.3.7 Batch calculation process *_
+            _2.3.4 Determine min/max fees **_
+            _2.3.5 Calculate regular and asset based fees **_
+            _2.3.6 Realtime what-if calculation **_
+            _2.3.7 Batch calculation process **_
 ##### 2.4 Calculate Advisory fees
             2.4.1 Calculate flow fees
             2.4.2 Calculate wrap fees
@@ -59,20 +59,17 @@ To provide the required flexibility, a dynamic calculator will be build based on
 #### Backend: Node.js (Express)
 #### Database: MySQL
 #### Libraries/Frameworks: Express.js
-Sequelize (ORM for MySQL)
-dotenv (Environment Variables)
-Bcrypt.js (Password Hashing)
-Moment.js (Date Manipulation)
-Getting Started
-Prerequisites
+
+## Getting Started
+### Prerequisites
+
 Ensure you have the following installed on your machine:
 
 Node.js (v14 or later)
 MySQL (v5.7 or later)
 npm (v6 or later)
-You can download Node.js here and MySQL here.
 
-Installation
+### Installation
 Clone this repository to your local machine:
 
 bash
