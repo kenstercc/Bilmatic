@@ -15,7 +15,7 @@ To provide the required flexibility, a dynamic calculator will be build based on
 
 ## Features
 
-_this is italic_
+__this is italic__
  
 #### 1 Billing Service
 ##### 1.1 Customer Management
