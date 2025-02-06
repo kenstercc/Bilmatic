@@ -15,9 +15,9 @@ To provide the required flexibility, a dynamic calculator will be build based on
 
 ## Features
 
-#### _Features that are implemented highlighted in Italic._ 
+#### _Features that are implemented marked with *_ 
  
-#### _1 Billing Service_
+#### _1 Billing Service *_
 ##### 1.1 Customer Management
 ##### 1.2 Billing Definitions
             1.2.1 Establish and maintain billing qualifications
@@ -26,7 +26,7 @@ To provide the required flexibility, a dynamic calculator will be build based on
 ##### 1.4 Rebate and reversal
 ##### 1.5 Initiate manual billing
 ##### 1.6 Billing reconcilations
-#### _2 Fee Calculation_
+#### _2 Fee Calculation *_
 ##### _2.1 Contract Definitions (fee schedule)_
 ##### 2.2 Asset Class Definitions
 ##### _2.3 Calculate transaction fees & time-based fees_
