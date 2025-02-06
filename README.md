@@ -70,46 +70,13 @@ To provide the required flexibility, a dynamic calculator will be build based on
 #### npm (v6 or later)
 
 ### Installation
-Clone this repository to your local machine:
+Clone this repository (Bilmatic) to your local machine (frontend):
 
-bash
-Copy
-git clone https://github.com/kenstercc/bilmatic.git
-Navigate to the project directory:
+Install and setup mySQL DB
 
-bash
-Copy
-cd enterprise-billing
-Install the required dependencies:
+Clone repository (Bilmatic_backend) to your local machine (mysql DB APIs)
 
-bash
-Copy
-npm install
-Configuration
-Create a .env file in the root directory of the project with the following variables:
-
-env
-Copy
-DB_HOST=localhost
-DB_USER=root
-DB_PASSWORD=password
-DB_NAME=Bilmatic
-JWT_SECRET=your_jwt_secret_key
-Update the DB_HOST, DB_USER, DB_PASSWORD, and DB_NAME to match your MySQL database credentials.
-
-Run the database migrations to set up the schema:
-
-bash
-Copy
-npm run migrate
-Start the server:
-
-bash
-Copy
-npm start
-Your application should now be running at http://localhost:3000.
-
-
+Clone repositiory (Bilmatic_calculator) to your local machine (Batch Calculator process)
 
 ## Contributing
 We welcome contributions! To contribute, follow these steps:
