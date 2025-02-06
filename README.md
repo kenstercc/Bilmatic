@@ -32,6 +32,8 @@ To provide the required flexibility, a dynamic calculator will be build based on
             2.3.2 Calculate exception fees
             2.3.3 Dynamic formula
             2.3.4 Determine min/max fees
+            2.3.5 Calculate regular and asset based fees
+            2.3.6 Realtime what-if calculation
 ##### 2.4 Calculate Advisory fees
             2.4.1 Calculate flow fees
             2.4.2 Calculate wrap fees
