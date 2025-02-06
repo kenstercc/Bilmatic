@@ -17,7 +17,7 @@ To provide the required flexibility, a dynamic calculator will be build based on
 
 _this is italic_
  
-#### 1 Billing Service
+#### _1 Billing Service_
 ##### 1.1 Customer Management
 ##### 1.2 Billing Definitions
             1.2.1 Establish and maintain billing qualifications
