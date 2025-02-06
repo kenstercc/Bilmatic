@@ -27,16 +27,16 @@ To provide the required flexibility, a dynamic calculator will be build based on
 ##### 1.5 Initiate manual billing
 ##### 1.6 Billing reconcilations
 #### _2 Fee Calculation *_
-##### _2.1 Contract Definitions (fee schedule)_
+##### _2.1 Contract Definitions (fee schedule) *_
 ##### 2.2 Asset Class Definitions
-##### _2.3 Calculate transaction fees & time-based fees_
+##### _2.3 Calculate transaction fees & time-based fees *_
             2.3.1 Determine billing exemption
             2.3.2 Calculate exception fees
             2.3.3 Dynamic formula
-            _2.3.4 Determine min/max fees_
-            _2.3.5 Calculate regular and asset based fees_
-            _2.3.6 Realtime what-if calculation_
-            _2.3.7 Batch calculation process_
+            _2.3.4 Determine min/max fees *_
+            _2.3.5 Calculate regular and asset based fees *_
+            _2.3.6 Realtime what-if calculation *_
+            _2.3.7 Batch calculation process *_
 ##### 2.4 Calculate Advisory fees
             2.4.1 Calculate flow fees
             2.4.2 Calculate wrap fees
