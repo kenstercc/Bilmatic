@@ -15,7 +15,7 @@ To provide the required flexibility, a dynamic calculator will be build based on
 
 ## Features
 
-### _Features that are implemented highlighted in Italic._ 
+#### _Features that are implemented highlighted in Italic._ 
  
 #### _1 Billing Service_
 ##### 1.1 Customer Management
@@ -26,16 +26,17 @@ To provide the required flexibility, a dynamic calculator will be build based on
 ##### 1.4 Rebate and reversal
 ##### 1.5 Initiate manual billing
 ##### 1.6 Billing reconcilations
-#### 2 Fee Calculation
-##### 2.1 Contract Definitions (fee schedule)
+#### _2 Fee Calculation_
+##### _2.1 Contract Definitions (fee schedule)_
 ##### 2.2 Asset Class Definitions
-##### 2.3 Calculate transaction fees & time-based fees
+##### _2.3 Calculate transaction fees & time-based fees_
             2.3.1 Determine billing exemption
             2.3.2 Calculate exception fees
             2.3.3 Dynamic formula
-            2.3.4 Determine min/max fees
-            2.3.5 Calculate regular and asset based fees
-            2.3.6 Realtime what-if calculation
+            _2.3.4 Determine min/max fees_
+            _2.3.5 Calculate regular and asset based fees_
+            _2.3.6 Realtime what-if calculation_
+            _2.3.7 Batch calculation process_
 ##### 2.4 Calculate Advisory fees
             2.4.1 Calculate flow fees
             2.4.2 Calculate wrap fees
