@@ -70,13 +70,13 @@ To provide the required flexibility, a dynamic calculator will be build based on
 #### npm (v6 or later)
 
 ### Installation
-Clone this repository (Bilmatic) to your local machine (frontend):
+Clone this repository (kenstercc/Bilmatic) to your local machine (frontend):
 
 Install and setup mySQL DB
 
-Clone repository (Bilmatic_backend) to your local machine (mysql DB APIs)
+Clone repository (kenstercc/Bilmatic_backend) to your local machine (mysql DB APIs)
 
-Clone repositiory (Bilmatic_calculator) to your local machine (Batch Calculator process)
+Clone repositiory (kenstercc/Bilmatic_calculator) to your local machine (Batch Calculator process)
 
 ## Contributing
 We welcome contributions! To contribute, follow these steps:
