@@ -73,8 +73,8 @@ To provide the required flexibility, a dynamic calculator will be build based on
 #### Clone this repository (kenstercc/Bilmatic) to your local machine (frontend):
 
 #### Install and setup mySQL DB
-##### See Data model folder
-##### See DB schema in kenstercc/Bilmatic_backend directory, ***.SQL files
+##### - See Data model folder in kenstercc/Bilmatic
+##### - See DB schema in kenstercc/Bilmatic_backend directory, ***.SQL files
 
 #### Clone repository (kenstercc/Bilmatic_backend) to your local machine (mysql DB APIs)
 
