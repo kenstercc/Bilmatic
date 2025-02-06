@@ -63,11 +63,11 @@ To provide the required flexibility, a dynamic calculator will be build based on
 ## Getting Started
 ### Prerequisites
 
-Ensure you have the following installed on your machine:
+#### Ensure you have the following installed on your machine:
 
-Node.js (v14 or later)
-MySQL (v5.7 or later)
-npm (v6 or later)
+#### Node.js (v14 or later)
+#### MySQL (v5.7 or later)
+#### npm (v6 or later)
 
 ### Installation
 Clone this repository to your local machine:
