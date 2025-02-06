@@ -4,6 +4,7 @@ An open source generic, rule and formula based billing application to support va
 
 The final product will provide billing for advisory management fees as well as interest calculation for margin and security lending.     
 
+
 The application will be built under the following service Model;
 - **Billing Service** 
 - **Fee Calculation** 
