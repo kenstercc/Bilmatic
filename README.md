@@ -70,24 +70,24 @@ To provide the required flexibility, a dynamic calculator will be build based on
 #### npm (v6 or later)
 
 ### Installation
-Clone this repository (kenstercc/Bilmatic) to your local machine (frontend):
+#### Clone this repository (kenstercc/Bilmatic) to your local machine (frontend):
 
-Install and setup mySQL DB
+#### Install and setup mySQL DB
 
-Clone repository (kenstercc/Bilmatic_backend) to your local machine (mysql DB APIs)
+#### Clone repository (kenstercc/Bilmatic_backend) to your local machine (mysql DB APIs)
 
-Clone repositiory (kenstercc/Bilmatic_calculator) to your local machine (Batch Calculator process)
+#### Clone repositiory (kenstercc/Bilmatic_calculator) to your local machine (Batch Calculator process)
 
 ## Contributing
-We welcome contributions! To contribute, follow these steps:
+#### We welcome contributions! To contribute, follow these steps:
 
-Fork the repository.
-Create a new branch: git checkout -b feature/your-feature-name.
-Make your changes and commit them: git commit -m 'Add new feature'.
-Push to the branch: git push origin feature/your-feature-name.
-Create a pull request.
-Please make sure your code passes all tests and adheres to the project's coding standards.
+#### Fork the repository.
+##### Create a new branch: git checkout -b feature/your-feature-name.
+##### Make your changes and commit them: git commit -m 'Add new feature'.
+##### Push to the branch: git push origin feature/your-feature-name.
+##### Create a pull request.
+##### Please make sure your code passes all tests and adheres to the project's coding standards.
 
-Happy coding! 🎉
+## Happy coding! 🎉
 
-Feel free to adjust the text as per your project structure or preferences. Let me know if you'd like to modify or add anything!
+### Feel free to adjust the text as per your project structure or preferences. Let me know if you'd like to modify or add anything!
