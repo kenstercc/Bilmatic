@@ -15,7 +15,7 @@ To provide the required flexibility, a dynamic calculator will be build based on
 
 ## Features
 
-<span style="color: red;">This text is red</span>
+This text is red \textcolor{}{} 
  
 #### 1 Billing Service
 ##### 1.1 Customer Management
