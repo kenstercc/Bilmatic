@@ -67,11 +67,14 @@ Welcome to the VS Code Java world. Here is a guideline to help you get started t
 ##### - See Data model folder in kenstercc/Bilmatic in this repository
 ##### - See DB schema in kenstercc/Bilmatic_backend repository. ***.SQL files
 
-The workspace contains two folders by default, where:
-#### Clone repository (kenstercc/Bilmatic_backend) to your local machine (mysql DB APIs)
+The workspace contains three folders by default, where:
 
+#### Clone repository (kenstercc/Bilmatic) to your local machine (Frontend)
 - `src`: the folder to maintain sources
 - `lib`: the folder to maintain dependencies
+
+#### Clone repository (kenstercc/Bilmatic_backend) to your local machine (mysql DB APIs)
+
 #### Clone repositiory (kenstercc/Bilmatic_calculator) to your local machine (Batch Calculator process)
 
 Meanwhile, the compiled output files will be generated in the `bin` folder by default.
