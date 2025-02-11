@@ -1,20 +1,12 @@
 ![Bilmatic-Logo-2](https://github.com/user-attachments/assets/1cde5cd8-1847-46c0-abb4-3358447d492f) 
-
-An open source generic, rule and formula based billing application to support various billing needs for most businesses and industries.  The billing engine will accommodate charging fees based on transactions and account asset value.  
-
-The final product will provide billing for advisory management fees as well as interest calculation for margin and security lending.     
-
-
+An open source generic, rule and formula based billing application to support various billing needs for most businesses and industries.  The billing engine will accommodate charging fees based on transactions and account asset value. The final product will provide billing for advisory management fees as well as interest calculation for margin and security lending.     
 The application will be built under the following service Model;
 - **Billing Service** 
 - **Fee Calculation** 
 - **Distribution and Collection**
 - **Invoicing and Payment Management**
-
 To provide the required flexibility, a dynamic calculator will be build based on user defined formula and exception pricing will be determined by a set of Boolean logic.   
-
 ## Features
-
 #### _Features that are implemented marked with **_ 
  
 #### _1 Billing Service **_
@@ -53,36 +45,42 @@ To provide the required flexibility, a dynamic calculator will be build based on
 #### 4.1 Create Customer Invoice
 #### 4.2 Create Receivable and payable detail
 #### 4.3 Payment Management
-
 ## Technologies Used
 #### Frontend: Javascript/AG-Grid
 #### Backend: Node.js (Express)
 #### Database: MySQL
 #### Libraries/Frameworks: Express.js
-
 ## Getting Started
 ### Prerequisites
-
 #### Ensure you have the following installed on your machine:
-
 #### Node.js (v14 or later)
 #### MySQL (v5.7 or later)
 #### npm (v6 or later)
 
+Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 ### Installation
 #### Clone this repository (kenstercc/Bilmatic) to your local machine (frontend):
 
+## Folder Structure
 #### Install and setup mySQL DB
 ##### - See Data model folder in kenstercc/Bilmatic in this repository
 ##### - See DB schema in kenstercc/Bilmatic_backend repository. ***.SQL files
+
+The workspace contains three folders by default, where:
+
+#### Clone repository (kenstercc/Bilmatic) to your local machine (Frontend)
+- `src`: the folder to maintain sources
+- `lib`: the folder to maintain dependencies
 
 #### Clone repository (kenstercc/Bilmatic_backend) to your local machine (mysql DB APIs)
 
 #### Clone repositiory (kenstercc/Bilmatic_calculator) to your local machine (Batch Calculator process)
 
+Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 ## Contributing
 #### We welcome contributions! To contribute, follow these steps:
 
+> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
 #### Fork the repository.
 ##### Create a new branch: git checkout -b feature/your-feature-name.
 ##### Make your changes and commit them: git commit -m 'Add new feature'.
@@ -90,6 +88,6 @@ To provide the required flexibility, a dynamic calculator will be build based on
 ##### Create a pull request.
 ##### Please make sure your code passes all tests and adheres to the project's coding standards.
 
+## Dependency Management
 ## Happy coding! 🎉
-
 ### Feel free to adjust the text as per your project structure or preferences. Let me know if you'd like to modify or add anything!
