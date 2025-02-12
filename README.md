@@ -77,6 +77,16 @@ The workspace contains three folders by default, where:
 #### Clone repositiory (kenstercc/Bilmatic_calculator) to your local machine (Batch Calculator process)
 
 Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+
+## 📈 Demo
+ -  https://kenstercc.github.io/Bilmatic-demo   - Live demo of the limited feature of the Bilmatic app  
+    - features available
+       - Main Menu
+       - Contract maintain for standard billing
+       - Calculator (what-if fee calculation)
+         
+  * for the purpose of the demo, use "company01" as the Entity.  Sub-Entity and Account is not necessary.
+    
 ## Contributing
 #### We welcome contributions! To contribute, follow these steps:
 
